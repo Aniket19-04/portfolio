@@ -1,0 +1,301 @@
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    .container {
+        font-size: 190px;
+        display: grid;
+        grid-template-areas: 
+        'nav flex topr nav flex topr nav flex topr'
+        'text-box text-box text-box'
+        'card card card'
+        'circle circle cirlce'
+        'footer footer footer';
+    }
+
+    .text-box h1{
+        font-size: 190px;
+    }
+
+    .text-box h3{
+        font-size: medium;
+    }
+
+    .containerm {
+        font-size: x-small;
+    }
+
+    .text-box h1 {
+        font-size: small;
+    }
+
+    .text-box h3 {
+        font-size: x-small;
+    }
+
+    .text-about h1 {
+        font-size: small;
+    }
+
+    .section .four li a {
+        font-size: x-small;
+    }
+
+    .section .card .content h2 {
+        font-size: x-small;
+    }
+
+    .section .card .content h3 {
+        font-size: x-small;
+    }
+
+    .section .card .content p {
+        font-size: x-small;
+    }
+
+    .section .circle .content h2 {
+        font-size: x-small;
+    }
+
+    .section .circle .content h2 span {
+        font-size: xx-small;
+    }
+
+    .section .circle .content a {
+        font-size: xx-small;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width:577px) and (max-width: 768px) {
+    .container {
+        font-size: small;
+        display: grid;
+        grid-template-areas: 
+        'nav flex topr nav flex topr nav flex topr'
+        'text-box text-box text-box'
+        'card card card'
+        'circle circle cirlce'
+        'footer footer footer';
+    }
+
+    .containerm {
+        font-size: small;
+    }
+
+    .text-box h1 {
+        font-size: medium;
+    }
+
+    .text-box h3 {
+        font-size: small;
+    }
+
+    .text-about h1 {
+        font-size: medium;
+    }
+
+    .section .four li a {
+        font-size: smaller;
+    }
+
+    .section .card .content h2 {
+        font-size: smaller;
+    }
+
+    .section .card .content h3 {
+        font-size: smaller;
+    }
+
+    .section .card .content p {
+        font-size: smaller;
+    }
+
+    .section .circle .content h2 {
+        font-size: smaller;
+    }
+
+    .section .circle .content h2 span {
+        font-size: xx-small;
+    }
+
+    .section .circle .content a {
+        font-size: x-small;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        font-size: medium;
+        display: grid;
+        grid-template-areas: 
+        'nav flex topr nav flex topr nav flex topr'
+        'text-box text-box text-box'
+        'card card card'
+        'circle circle cirlce'
+        'footer footer footer';
+    }
+
+    .containerm {
+        font-size: medium;
+    }
+
+    .text-box h1 {
+        font-size: large;
+    }
+
+    .text-box h3 {
+        font-size: medium;
+    }
+
+    .text-about h1 {
+        font-size: large;
+    }
+
+    .section .four li a {
+        font-size: small;
+    }
+
+    .section .card .content h2 {
+        font-size: small;
+    }
+
+    .section .card .content h3 {
+        font-size: small;
+    }
+
+    .section .card .content p {
+        font-size: small;
+    }
+
+    .section .circle .content h2 {
+        font-size: small;
+    }
+
+    .section .circle .content h2 span {
+        font-size: x-small;
+    }
+
+    .section .circle .content a {
+        font-size: small;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width:993px) and (max-width: 1200px) {
+    .container {
+        font-size: large;
+        display: grid;
+        grid-template-areas: 
+        'nav flex topr nav flex topr nav flex topr'
+        'text-box text-box text-box'
+        'card card card'
+        'circle circle cirlce'
+        'footer footer footer';
+    }
+
+    .containerm {
+        font-size: large;
+    }
+
+    .text-box h1 {
+        font-size: x-large;
+    }
+
+    .text-box h3 {
+        font-size: large;
+    }
+
+    .text-about h1 {
+        font-size: x-large;
+    }
+
+    .section .four li a {
+        font-size: medium;
+    }
+
+    .section .card .content h2 {
+        font-size: medium;
+    }
+
+    .section .card .content h3 {
+        font-size: medium;
+    }
+
+    .section .card .content p {
+        font-size: medium;
+    }
+
+    .section .circle .content h2 {
+        font-size: medium;
+    }
+
+    .section .circle .content h2 span {
+        font-size: small;
+    }
+
+    .section .circle .content a {
+        font-size: smaller;
+    }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width:1201px) and (max-width: 1400px) {
+    .container {
+        font-size: larger;
+        display: grid;
+        grid-template-areas: 
+        'nav flex topr nav flex topr nav flex topr'
+        'text-box text-box text-box'
+        'text-box h1 text-box h1 text-box h1'
+        'card card card'
+        'circle circle cirlce'
+        'footer footer footer';
+    }
+
+    .containerm {
+        font-size: larger;
+    }
+
+    .text-box h1 {
+        font-size: larger;
+    }
+
+    .text-box h3 {
+        font-size: large;
+    }
+
+    .text-about h1 {
+        font-size: large;
+    }
+
+    .section .four li a {
+        font-size: large;
+    }
+
+    .section .card .content h2 {
+        font-size: large;
+    }
+
+    .section .card .content h3 {
+        font-size: large;
+    }
+
+    .section .card .content p {
+        font-size: large;
+    }
+
+    .section .circle .content h2 {
+        font-size: large;
+    }
+
+    .section .circle .content h2 span {
+        font-size: smaller;
+    }
+
+    .section .circle .content a {
+        font-size: medium;
+    }
+}
